@@ -1,4 +1,4 @@
 class RoomUser < ApplicationRecord
   belongs_to :room
-  belougs_to :user
+  belongs_to :user
 end
